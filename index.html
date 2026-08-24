@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personal de Sol Diessler, diseñadora UX/UI, programadora y animadora 2D.">
+  
+  <title>Sol Diessler — Portafolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Presentacion -->
+  <header id="sobre-mi">
+    <h1>Hola!</h1>
+    <div class="intro-top">
+      <div class="intro-info">
+        <p>Soy...</p>
+        <h2>Sol Diessler</h2>
+        <ul>
+          <li>Diseñadora UX/UI</li>
+          <li>Programadora</li>
+          <li>Animadora 2D</li>
+        </ul>
+      </div>
+      <div class="intro-character">
+        <img src="assets/sol.png" alt="avatar de Sol"/>
+      </div>
+    </div>
+    <div class="intro-bottom">
+      <div class="intro-character">
+        <img src="assets/sol2.png" alt="avatar de Sol"/>
+      </div>
+      <p>
+        Programo desde hace 3 años, dibujo desde que aprendí a sostener un lápiz.
+        <br>
+        Soy curiosa por naturaleza y me gusta crear proyectos donde el diseño 
+        sea una forma de contar la historia que hay detrás.
+      </p>
+    </div>
+  </header>
+
+  <!-- toggle Nav -->
+  <input type="checkbox" id="menu-toggle">
+
+  <label for="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav class="main-nav" aria-label="Navegación principal">
+    <a class="main-nav-a" href="#sobre-mi">Sobre mí</a>
+    <a class="main-nav-a" href="#experiencia">Experiencia</a>
+    <a class="main-nav-a" href="#habilidades">Habilidades</a>
+    <a class="main-nav-a" href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+<!-- Experiencia -->
+<section id="experiencia" aria-labelledby="titulo-experiencia">
+  <h2 id="titulo-experiencia">Experiencia</h2>
+
+  <div class="experience-list">
+
+    <!-- Estados del carrusel -->
+    <input type="radio" name="experience" id="exp-2026" checked>
+    <input type="radio" name="experience" id="exp-2025">
+    <input type="radio" name="experience" id="exp-2024">
+    <input type="radio" name="experience" id="exp-2023">
+
+    <!-- 2026 -->
+    <article>
+      <h3>2026</h3>
+
+      <p>
+        Trabajé en proyectos de UX/UI y desarrollo frontend, utilizando Figma
+        y Next.js para diseñar e implementar interfaces digitales.
+        <br>Entre ellos destaco:
+      </p>
+
+      <h4>
+        <a href="https://carpilanding.netlify.app/" target="_blank">
+          &gt; CarpiSeñas
+        </a>
+      </h4>
+
+      <p>
+        Una app gamificada para el aprendizaje de la Lengua de
+        Señas Argentina, desarrollada junto a un equipo interdisciplinario.
+        Participé en el diseño UX/UI, trabajando sobre la arquitectura
+        de la experiencia, sistemas visuales, componentes e interfaz
+        responsive, con especial atención a accesibilidad y gamificación.
+      </p>
+    </article>
+
+    <!-- 2025 -->
+    <article>
+      <h3>2025</h3>
+
+      <p>
+        Realicé múltiples sitios web utilizando distintas herramientas
+        según las necesidades de cada proyecto, desde experiencias
+        completamente personalizadas hasta implementaciones ágiles.
+        <br>Algunos proyectos:
+      </p>
+
+      <h4>
+        <a href="https://thevast.vercel.app/" target="_blank">
+          &gt; The Vast in the Dark
+        </a>
+      </h4>
+
+      <h4>
+        <a href="https://www.jardindepersia.com/home" target="_blank">
+          &gt; Jardín de Persia
+        </a>
+      </h4>
+    </article>
+
+    <!-- 2024 -->
+    <article>
+      <h3>2024</h3>
+
+      <p>
+        Trabajé principalmente en Tobi, en el diseño UX/UI de
+        su aplicación mobile y en el desarrollo frontend de su plataforma
+        de gestión para partners.
+      </p>
+
+      <h4>
+        <a href="https://play.google.com/store/apps/details?id=com.tobi" target="_blank">
+          &gt; Tobi
+        </a>
+      </h4>
+
+      <p>
+        Participé en el diseño UX/UI de la aplicación mobile de Tobi,
+        realizando wireframes, trabajando sobre la experiencia y las
+        interfaces en Figma.
+        <br>Como parte del mismo proyecto, participé en el desarrollo
+        del frontend del dashboard web privado de gestión para partners
+        con Next.js, React, TypeScript y Tailwind CSS, trabajando en
+        módulos de agenda, clientes, servicios, productos, equipo y
+        perfil, además de formularios, búsquedas y filtros.
+      </p>
+    </article>
+
+    <!-- 2023 -->
+    <article>
+      <h3>2023</h3>
+
+      <p>
+        Comencé a participar en proyectos de desarrollo web,
+        trabajando principalmente con React.
+        <br>Mi primer proyecto comercial:
+      </p>
+
+      <h4>
+        <a href="https://sierravita.com/" target="_blank">
+          &gt; SierraVita
+        </a>
+      </h4>
+
+      <p>
+        E-commerce desarrollado para una marca vinculada
+        al sector vitivinícola. Trabajé en el desarrollo frontend
+        y en la implementación de la experiencia de compra.
+        Actualmente el sitio funciona como una página de presentación
+        y deriva las compras hacia Amazon.
+      </p>
+    </article>
+
+    <!-- Controles -->
+    <div class="experience-controls">
+
+      <!-- Flecha anterior -->
+      <label class="prev prev-2026" for="exp-2023">&lt;</label>
+      <label class="prev prev-2025" for="exp-2026">&lt;</label>
+      <label class="prev prev-2024" for="exp-2025">&lt;</label>
+      <label class="prev prev-2023" for="exp-2024">&lt;</label>
+
+      <div class="experience-dots">
+        <label for="exp-2026"></label>
+        <label for="exp-2025"></label>
+        <label for="exp-2024"></label>
+        <label for="exp-2023"></label>
+      </div>
+
+      <!-- Flecha siguiente -->
+      <label class="next next-2026" for="exp-2025">&gt;</label>
+      <label class="next next-2025" for="exp-2024">&gt;</label>
+      <label class="next next-2024" for="exp-2023">&gt;</label>
+      <label class="next next-2023" for="exp-2026">&gt;</label>
+
+    </div>
+  </div>
+
+  <img src="assets/exp.png" alt="Avatar en bici">
+</section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" aria-labelledby="titulo-habilidades">
+      <h2 id="titulo-habilidades">Habilidades</h2>
+      <div class="skills-card">
+      <article>
+        <h3>Programación</h3>
+        <ul>
+          <li>Next.js</li>
+          <li>React</li>
+          <li>React Native</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>PostgreSQL</li>
+          <li>MySQL</li>
+          <li>Supabase</li>
+          <li>Vercel</li>
+          <li>Expo</li>
+          <li>TypeScript</li>
+          <li>JavaScript</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Sass</li>
+          <li>Less</li>
+          <li>Styled Components</li>
+          <li>CSS Modules</li>
+          <li>Bootstrap</li>
+          <li>Material UI</li>
+          <li>Tailwind CSS</li>
+          <li>Nativewind</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Diseño</h3>
+        <ul>
+          <li>UX/UI Design</li>
+          <li>UX Research</li>
+          <li>Storytelling</li>
+          <li>Narrativa interactiva</li>
+          <li>Wireframes</li>
+          <li>Mockups</li>
+          <li>Prototipado</li>
+          <li>Responsive Design</li>
+          <li>Branding</li>
+          <li>Creación de contenido</li>
+          <li>Diseño vectorial</li>
+          <li>Animación 2D</li>
+          <li>Figma</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>After Effects</li>
+          <li>Premiere</li>
+          <li>Spline</li>
+          <li>Canva</li>
+          <li>Clip Studio Paint</li>
+          <li>Toon Boom</li>
+          <li>Leonardo AI</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Otras habilidades</h3>
+        <ul>
+          <li>Documentación técnica</li>
+          <li>Gestión documental</li>
+          <li>Metodologías ágiles</li>
+          <li>GitHub</li>
+          <li>Notion</li>
+          <li>Trello</li>
+          <li>Slack</li>
+          <li>Discord</li>
+        </ul>
+      </article>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contacto</h2>
+      <p> Si me elegís, podríamos ser un buen equipo. </p>
+      <form class="contact-form">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required autocomplete="name">
+        </div>
+        <div>
+          <label for="contacto-input">Contacto</label>
+          <input type="text" id="contacto-input" name="contacto" required>
+        </div>
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Redes -->
+  <footer>
+    <p class="footer-title">También podés encontrarme en:</p>
+    <img class="footer-image" src="assets/bag.webp" alt="Mochila"/>
+    <nav aria-label="Redes y contacto">
+      <ul>
+        <li>
+          <img src="assets/pokeball.webp" alt="Pokeball">
+          <a href="https://www.linkedin.com/in/sol-diessler/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+        <li>
+          <img src="assets/pokeball.webp" alt="Pokeball">
+          <a href="mailto:diesslersol@gmail.com">Mail</a>
+        </li>
+        <li>
+          <img src="assets/pokeball.webp" alt="Pokeball">
+          <a href="https://github.com/soldiessler" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  </body>
+</html>
